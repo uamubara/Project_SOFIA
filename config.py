@@ -22,3 +22,7 @@ ASSEMBLYAI_API_KEY = 'ASSEMBLYAI_API_KEY'
 # OpenAI
 
 your_openai_api_key = 'your_openai_api_key'
+
+# Open Weather
+
+Weather_API_KEY = 'Weather_API_KEY'

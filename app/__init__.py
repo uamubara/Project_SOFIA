@@ -18,6 +18,7 @@ aws_key = os.getenv('AWS_ACCESS_KEY_ID')
 secret_key = os.getenv('AWS_SECRET_ACCESS_KEY')
 OpenAI(api_key=os.getenv('your_openai_api_key'))
 aai.settings.api_key = os.getenv('ASSEMBLYAI_API_KEY')
+api_key = os.getenv('Weather_API_KEY')
 
 # Initialize database support
 db = SQLAlchemy()
