@@ -31,9 +31,9 @@ Welcome to Project S.O.F.I.A., a robust and intelligent voice-based assistant fr
 
 ## Technologies Used
 
-- ![Assembly AI](images/assemblyai-logo.png) **Assembly AI**: For speech-to-text conversion.
-- ![OpenAI](images/openai-logo.png) **OpenAI**: For natural language processing and response generation.
-- ![Amazon Polly](images/amazon-polly-logo.png) **Amazon Polly**: For text-to-speech synthesis.
+- **Assembly AI**: For speech-to-text conversion.
+- **OpenAI**: For natural language processing and response generation.
+- **Amazon Polly**: For text-to-speech synthesis.
 
 
 ## Getting Started
