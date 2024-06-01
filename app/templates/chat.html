@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Interface</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/chat.css') }}">
+</head>
+<body>
+<div class="chat-container">
+    <ul class="chat-thread" id="chat-thread">
+        <!-- Messages will be dynamically added here -->
+    </ul>
+    <form class="chat-window" onsubmit="sendMessage(event)">
+        <input class="chat-window-message" id="chat-message-input" name="chat-window-message" type="text" autocomplete="off" autofocus placeholder="Type a message..." />
+        <button id="mic-button">🎤</button>
+        <button type="submit">Send</button>
+    </form>
+</div>
+
+<script src="{{ url_for('static', filename='js/chat.js') }}"></script>
+</body>
+</html>
