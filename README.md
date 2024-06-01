@@ -1,29 +1,49 @@
 # Project S.O.F.I.A.
 ## Smart Operational Framework for Intelligent Assistance
 
+![S.O.F.I.A. Logo](path/to/logo.png)
+
 Welcome to Project S.O.F.I.A., a robust and intelligent voice-based assistant framework designed to streamline interactions and provide seamless user experiences. This project leverages state-of-the-art technologies to deliver high-quality voice recognition, natural language understanding, and speech synthesis.
 
-### Features
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python Version](https://img.shields.io/badge/Python-3.7%2B-blue.svg)](https://www.python.org/downloads/)
+
+---
+
+## Table of Contents
+
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+- [Future Enhancements](#future-enhancements)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
+
+---
+
+## Features
 
 - **Voice Recognition**: Converts spoken input to text using Assembly AI.
 - **Natural Language Understanding**: Processes text and generates intelligent responses using OpenAI's GPT model.
 - **Speech Synthesis**: Converts text responses back to speech using Amazon Polly.
 - **Terminal Interface**: Provides basic voice chat functionality via the terminal.
 
-### Technologies Used
+## Technologies Used
 
 - **Assembly AI**: For speech-to-text conversion.
 - **OpenAI**: For natural language processing and response generation.
 - **Amazon Polly**: For text-to-speech synthesis.
 
-### Getting Started
+## Getting Started
 
-#### Prerequisites
+### Prerequisites
 
 - Python 3.7+
 - Assembly AI API Key
 - OpenAI API Key
 - Amazon Polly API Key
+
 
 ### Future Enhancements
 
